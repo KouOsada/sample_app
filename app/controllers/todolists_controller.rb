@@ -35,6 +35,9 @@ class TodolistsController < ApplicationController
       render :new
     end
   end
+  
+  def destroy
+  end
 
   private
   def list_params
